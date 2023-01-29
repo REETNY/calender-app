@@ -19,7 +19,7 @@ function  renderCalender(currYear, currMonth){
     // get the first day of the month
     const firstDayOfMonth = new Date(currYear, currMonth, 1).getDay();
     // get the last day of the month
-    const lastDayOfMonth = new Date(currYear, currMonth, lastDateOfLastMonth).getDay();
+    const lastDayOfMonth = new Date(currYear, currMonth, lastDateOfMonth).getDay();
 
     // empty the lidaytag
     liDayTag.innerHTML = ``;
