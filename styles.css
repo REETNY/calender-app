@@ -17,6 +17,10 @@ body{
 main{
     width: 100%;
     min-height: 100vh;
+    background: url(/BG/peakpx.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,9 +31,10 @@ main{
     height: auto;
     display: grid;
     grid-template-columns: 1fr;
-    background: #eee;
+    background: rgb(238, 238, 238, .5);
     padding: 25px 15px;
     border-radius: 20px;
+    box-shadow: 0px 0px 3px 4px rgb(31, 30, 30, .2);
 }
 
 .app-header{
@@ -144,7 +149,7 @@ main{
 .inactive{
     background-color: rgb(202, 202, 202);
     color: rgb(34, 33, 33);
-    opacity: .4;
+    opacity: .9;
     color: rgb(228, 66, 66);
     cursor: not-allowed;
 }
